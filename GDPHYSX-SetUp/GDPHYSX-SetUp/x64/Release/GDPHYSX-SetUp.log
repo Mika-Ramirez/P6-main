@@ -1,0 +1,42 @@
+﻿  Input.cpp
+  main.cpp
+C:\Users\CatrinaRamirez\Desktop\GDPHYSX-main\GDPHYSX-main\GDPHYSX-SetUp\GDPHYSX-SetUp\P6\GravityForce.h(12,35): warning C4305: 'argument': truncation from 'double' to 'const float'
+  (compiling source file 'main.cpp')
+  
+C:\Users\CatrinaRamirez\Desktop\GDPHYSX-main\GDPHYSX-main\GDPHYSX-SetUp\GDPHYSX-SetUp\P6\PhysicsWorld.h(23,52): warning C4305: 'argument': truncation from 'double' to 'const float'
+  (compiling source file 'main.cpp')
+  
+C:\Users\CatrinaRamirez\Desktop\GDPHYSX-main\GDPHYSX-main\GDPHYSX-SetUp\GDPHYSX-SetUp\main.cpp(211,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\CatrinaRamirez\Desktop\GDPHYSX-main\GDPHYSX-main\GDPHYSX-SetUp\GDPHYSX-SetUp\main.cpp(212,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\CatrinaRamirez\Desktop\GDPHYSX-main\GDPHYSX-main\GDPHYSX-SetUp\GDPHYSX-SetUp\main.cpp(233,81): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\Users\CatrinaRamirez\Desktop\GDPHYSX-main\GDPHYSX-main\GDPHYSX-SetUp\GDPHYSX-SetUp\main.cpp(233,67): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\Users\CatrinaRamirez\Desktop\GDPHYSX-main\GDPHYSX-main\GDPHYSX-SetUp\GDPHYSX-SetUp\main.cpp(233,53): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  DragForce.cpp
+  GravityForce.cpp
+C:\Users\CatrinaRamirez\Desktop\GDPHYSX-main\GDPHYSX-main\GDPHYSX-SetUp\GDPHYSX-SetUp\P6\GravityForce.h(12,35): warning C4305: 'argument': truncation from 'double' to 'const float'
+  (compiling source file 'P6/GravityForce.cpp')
+  
+  ForceRegistry.cpp
+  Force.cpp
+  Model3D.cpp
+C:\Users\CatrinaRamirez\Desktop\GDPHYSX-main\GDPHYSX-main\GDPHYSX-SetUp\GDPHYSX-SetUp\Model3D.cpp(369,67): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  MyCamera.cpp
+  OrthoCamera.cpp
+  PhysicsParticle.cpp
+  MyVector.cpp
+  PhysicsWorld.cpp
+C:\Users\CatrinaRamirez\Desktop\GDPHYSX-main\GDPHYSX-main\GDPHYSX-SetUp\GDPHYSX-SetUp\P6\GravityForce.h(12,35): warning C4305: 'argument': truncation from 'double' to 'const float'
+  (compiling source file 'P6/PhysicsWorld.cpp')
+  
+C:\Users\CatrinaRamirez\Desktop\GDPHYSX-main\GDPHYSX-main\GDPHYSX-SetUp\GDPHYSX-SetUp\P6\PhysicsWorld.h(23,52): warning C4305: 'argument': truncation from 'double' to 'const float'
+  (compiling source file 'P6/PhysicsWorld.cpp')
+  
+  RenderParticle.cpp
+  PerspectiveCamera.cpp
+  Shader.cpp
+  glad.c
+  Generating code
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+  All 2414 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  GDPHYSX-SetUp.vcxproj -> C:\Users\CatrinaRamirez\Desktop\GDPHYSX-main\GDPHYSX-main\GDPHYSX-SetUp\x64\Release\GDPHYSX-SetUp.exe

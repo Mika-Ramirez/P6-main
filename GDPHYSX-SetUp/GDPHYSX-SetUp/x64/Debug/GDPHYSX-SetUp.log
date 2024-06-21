@@ -1,0 +1,17 @@
+﻿  DragForce.cpp
+  main.cpp
+C:\Users\CatrinaRamirez\Desktop\GDPHYSX-main\GDPHYSX-main\GDPHYSX-SetUp\GDPHYSX-SetUp\P6\GravityForce.h(12,35): warning C4305: 'argument': truncation from 'double' to 'const float'
+  (compiling source file 'main.cpp')
+  
+C:\Users\CatrinaRamirez\Desktop\GDPHYSX-main\GDPHYSX-main\GDPHYSX-SetUp\GDPHYSX-SetUp\P6\PhysicsWorld.h(23,52): warning C4305: 'argument': truncation from 'double' to 'const float'
+  (compiling source file 'main.cpp')
+  
+C:\Users\CatrinaRamirez\Desktop\GDPHYSX-main\GDPHYSX-main\GDPHYSX-SetUp\GDPHYSX-SetUp\main.cpp(211,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\CatrinaRamirez\Desktop\GDPHYSX-main\GDPHYSX-main\GDPHYSX-SetUp\GDPHYSX-SetUp\main.cpp(212,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\CatrinaRamirez\Desktop\GDPHYSX-main\GDPHYSX-main\GDPHYSX-SetUp\GDPHYSX-SetUp\main.cpp(233,81): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\Users\CatrinaRamirez\Desktop\GDPHYSX-main\GDPHYSX-main\GDPHYSX-SetUp\GDPHYSX-SetUp\main.cpp(233,67): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\Users\CatrinaRamirez\Desktop\GDPHYSX-main\GDPHYSX-main\GDPHYSX-SetUp\GDPHYSX-SetUp\main.cpp(233,53): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  Generating Code...
+  LINK : C:\Users\CatrinaRamirez\Desktop\GDPHYSX-main\GDPHYSX-main\GDPHYSX-SetUp\x64\Debug\GDPHYSX-SetUp.exe not found or not built by the last incremental link; performing full link
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  GDPHYSX-SetUp.vcxproj -> C:\Users\CatrinaRamirez\Desktop\GDPHYSX-main\GDPHYSX-main\GDPHYSX-SetUp\x64\Debug\GDPHYSX-SetUp.exe
