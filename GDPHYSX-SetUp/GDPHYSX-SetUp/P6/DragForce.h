@@ -1,5 +1,5 @@
-#ifndef FORCEGENERATOR_DEF
-#define FORCEGENERATOR_DEF
+#ifndef FORCE_DEF
+#define FORCE_DEF
 
 #include "Force.h"
 #endif 

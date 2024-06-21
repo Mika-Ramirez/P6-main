@@ -4,30 +4,26 @@
 #include "PhysicsParticle.h"
 #endif 
 
-#ifndef FORCEGENERATOR_DEF
-#define FORCEGENERATOR_DEF
+#ifndef FORCE_DEF
+#define FORCE_DEF
 
 #include "Force.h"
 #endif 
 
 #include "list"
 namespace P6 {
-	class ForceRegistry
-	{
-	public:
-		void Add(PhysicsParticle* p, Force* generator);
-		void Remove(PhysicsParticle* p, Force* generator);
-		void Clear();
-		void UpdateForces(float time);
+    struct ParticleForceRegistry {
+        PhysicsParticle* particle;
+        Force* generator;
+    };
 
-	protected:
-
-		struct ParticleForceRegistry {
-			PhysicsParticle* particle;
-			Force* generator;
-		};
-
-		std::list<ParticleForceRegistry> Registry;
-	};
+    class ForceRegistry {
+    private:
+        std::list<ParticleForceRegistry> Registry;
+    public:
+        void Add(PhysicsParticle* particle, Force* generator);
+        void Remove(PhysicsParticle* particle, Force* generator);
+        void Clear();
+        void UpdateForces(float time);
+    };
 }
-

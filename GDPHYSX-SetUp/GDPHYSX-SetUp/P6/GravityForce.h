@@ -1,21 +1,20 @@
-#ifndef FORCEGENERATOR_DEF
-#define FORCEGENERATOR_DEF
+#ifndef FORCE_DEF
+#define FORCE_DEF
 
 #include "Force.h"
 #endif 
 
 
 namespace P6 {
-	class GravityForce : public Force
-	{
-	private:
-		MyVector Gravity = MyVector(0, -9.8, 0);
+    class GravityForce : public Force
+    {
+    private:
+        MyVector gravity;
 
-	public:
-		GravityForce(const MyVector gravity) : Gravity(gravity){}
+    public:
+        GravityForce(const MyVector& gravity) : gravity(gravity) {}
 
-		void UpdateForce(PhysicsParticle* particle, float time) override;
-	};
-
+        void UpdateForce(PhysicsParticle* particle, float time) override;
+    };
 }
 
