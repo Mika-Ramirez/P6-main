@@ -1,0 +1,29 @@
+﻿  Input.cpp
+  Main.cpp
+C:\Users\ASUS\Documents\GitHub\Phase1\P6-Phase1\P6-Phase1\P6\PhysicsWorld.h(17): warning C4305: 'argument': truncation from 'double' to 'const float'
+C:\Users\ASUS\Documents\GitHub\Phase1\P6-Phase1\P6-Phase1\Main.cpp(142,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ASUS\Documents\GitHub\Phase1\P6-Phase1\P6-Phase1\Main.cpp(143,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ASUS\Documents\GitHub\Phase1\P6-Phase1\P6-Phase1\Main.cpp(156,81): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\Users\ASUS\Documents\GitHub\Phase1\P6-Phase1\P6-Phase1\Main.cpp(156,67): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\Users\ASUS\Documents\GitHub\Phase1\P6-Phase1\P6-Phase1\Main.cpp(156,53): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  DragForce.cpp
+  GravityForce.cpp
+  ForceRegistry.cpp
+  Force.cpp
+  Model3D.cpp
+C:\Users\ASUS\Documents\GitHub\Phase1\P6-Phase1\P6-Phase1\Graphics Engine\Model3D.cpp(231,66): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  MyCamera.cpp
+  OrthoCamera.cpp
+  PhysicsParticle.cpp
+  MyVector.cpp
+  PhysicsWorld.cpp
+C:\Users\ASUS\Documents\GitHub\Phase1\P6-Phase1\P6-Phase1\P6\PhysicsWorld.h(17): warning C4305: 'argument': truncation from 'double' to 'const float'
+  RenderParticle.cpp
+  PerspectiveCamera.cpp
+  Shader.cpp
+  glad.c
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 2424 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  P6-Phase1.vcxproj -> C:\Users\ASUS\Documents\GitHub\Phase1\P6-Phase1\x64\Release\P6-Phase1.exe
