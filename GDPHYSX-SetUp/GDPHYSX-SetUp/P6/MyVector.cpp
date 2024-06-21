@@ -1,21 +1,5 @@
 #include "MyVector.h"
 
-//Dot Product
-
-
-//Scalar Multiplication
-
-
-//Component Product
-
-
-//Divide
-
-
-//Subtraction
-
-
-//Addition
 
 void P6::MyVector::operator+=(const MyVector v) {
 	this->x += v.x;
